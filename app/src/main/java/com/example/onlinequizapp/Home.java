@@ -29,7 +29,7 @@ public class Home extends AppCompatActivity {
                         selectedFragment = Category.newInstance();
                         break;
                     case R.id.action_ranking:
-                        selectedFragment = Ranking.newInstance();
+                        selectedFragment = RankingFragment.newInstance();
                         break;
                 }
                 FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();

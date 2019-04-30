@@ -12,6 +12,7 @@ import android.view.ViewGroup;
 import com.example.onlinequizapp.Common.Common;
 import com.example.onlinequizapp.Interface.RankingCallBack;
 import com.example.onlinequizapp.Model.QuestionScore;
+import com.example.onlinequizapp.Model.Ranking;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -22,7 +23,7 @@ import com.google.firebase.database.ValueEventListener;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class Ranking extends Fragment {
+public class RankingFragment extends Fragment {
 
     String userName;
     int sum=0;
@@ -39,7 +40,7 @@ public class Ranking extends Fragment {
 
         database = FirebaseDatabase.getInstance();
         questionScore = database.getReference("Question_Score");
-        rankingTbl = database.getReference("Ranking");
+        rankingTbl = database.getReference("RankingFragment");
     }
 
     @Nullable
@@ -51,7 +52,7 @@ public class Ranking extends Fragment {
         updateScore(Common.currentUser.getUserName(), new RankingCallBack<Ranking>() {
             @Override
             public void callBack(Ranking ranking) {
-                // Update to Ranking table
+                // Update to RankingFragment table
             }
         });
 
