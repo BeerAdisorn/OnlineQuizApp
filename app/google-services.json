@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "127278783300",
+    "firebase_url": "https://onlinequizapp-57d9c.firebaseio.com",
+    "project_id": "onlinequizapp-57d9c",
+    "storage_bucket": "onlinequizapp-57d9c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127278783300:android:a88f082b4ecb1a61",
+        "android_client_info": {
+          "package_name": "com.example.onlinequizapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "127278783300-t050r0dv643tipvsa1ihadu2ui34tutp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.onlinequizapp",
+            "certificate_hash": "526bd37763af6bbc4c3be807e366e15df511f962"
+          }
+        },
+        {
+          "client_id": "127278783300-6vuvg71dd64gqqads0dr63bf4h6bkr06.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCECl9zb_GYThMuJKLUJAILbP4L7IcM5Uc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "127278783300-6vuvg71dd64gqqads0dr63bf4h6bkr06.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
