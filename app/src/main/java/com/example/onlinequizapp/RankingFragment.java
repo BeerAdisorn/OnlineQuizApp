@@ -82,4 +82,8 @@ public class RankingFragment extends Fragment {
                     }
                 });
     }
+
+    public static RankingFragment newInstance() {
+        return new RankingFragment();
+    }
 }
